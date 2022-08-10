@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "newsdata",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "tags",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "datetime",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
