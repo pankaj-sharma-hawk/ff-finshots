@@ -18,6 +18,7 @@ class _BottomsheetWidgetState extends State<BottomsheetWidget> {
   void initState() {
     super.initState();
     textController = TextEditingController();
+    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override
